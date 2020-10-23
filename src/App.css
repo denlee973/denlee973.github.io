@@ -34,11 +34,21 @@
 
 .name{
   color: white;
+  margin: 12% 0% 0% 0.1%;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14vw;
-  line-height: 351px;
+  letter-spacing: 0.151em;
+}
+
+.subtitle{
+  color: #A698C5;
+  margin: 0% 0% 0% 1%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
   letter-spacing: 0.151em;
 }
 
