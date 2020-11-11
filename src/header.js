@@ -26,6 +26,7 @@ function Header() {
       <a className="link" href="https://www.linkedin.com/in/dlee14/">linkedin</a>
       <a className="link" href="https://github.com/denlee973">github</a>
       <a className="link" href="https://www.instagram.com/_dn.y/">instagram</a>
+      <a className="link" href="https://drive.google.com/file/d/16C4aYr-hKllCyNdw0fx26FanR59WKmQw/view?usp=sharing">resume</a>
       </div>
     </div>
   );
