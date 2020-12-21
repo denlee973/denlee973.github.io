@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './header';
+import AboutMe from './aboutme';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Header />
-    
-  </React.StrictMode>,
+    <>
+      <Header />
+      <div className="large-spacer" />
+      <AboutMe />
+    </>,
   document.getElementById('root')
 );
 

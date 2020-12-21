@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.small-spacer {
+  height: 10vh;
+}
+
+.large-spacer {
+  height: 20vh;
+}
+
+#container { display:flex; flex-direction: column;}

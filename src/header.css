@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 .App {
     position: absolute;
-    top: 30%;
+    top: 30;
     width: 100%;
 }
 
@@ -39,6 +39,7 @@
 .name {
     color: white;
     margin: 0% 0% 0% 0.1%;
+    padding-top: 30%;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
