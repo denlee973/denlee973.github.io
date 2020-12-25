@@ -13,7 +13,7 @@ import * as serviceWorker from './serviceWorker';
 //   },
 // });
 // theme = responsiveFontSizes(theme);
-
+document.body.style = 'background: #121212;';
 ReactDOM.render(
   <>
     {/* <ThemeProvider theme={theme}> */}
