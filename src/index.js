@@ -1,16 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import Header from './header';
 import AboutMe from './aboutme';
+import Links from './links';
 import * as serviceWorker from './serviceWorker';
+// import ThemeProvider from '@material-ui/core/ThemeProvider';
+// import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
+
+// let theme = createMuiTheme({
+//   typography: {
+
+//   },
+// });
+// theme = responsiveFontSizes(theme);
 
 ReactDOM.render(
-    <>
+  <>
+    {/* <ThemeProvider theme={theme}> */}
       <Header />
-      <div className="large-spacer" />
       <AboutMe />
-    </>,
+      <Links />
+    {/* </ThemeProvider> */}
+  </>,
   document.getElementById('root')
 );
 
