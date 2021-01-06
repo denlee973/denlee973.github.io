@@ -64,7 +64,7 @@ const Links = () => {
                 </Grid>
                 <Grid item className={classes.gridCentered}>
                     <img className={classes.img} src="resume.png" alt="resumeButton" /> <br />
-                    <a className={classes.link} href="https://drive.google.com/file/d/1iGmrgygxaUWOu28NQsN1cPEl30Un6VX2/view?usp=sharing">resume</a>
+                    <a className={classes.link} href="Denny Lee - Resume S21.pdf">resume</a>
                 </Grid>
             </Grid>
         </div>
