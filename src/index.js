@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Header from './header';
 import AboutMe from './aboutme';
 import Links from './links';
+import Projects from './projects';
 import * as serviceWorker from './serviceWorker';
 // import ThemeProvider from '@material-ui/core/ThemeProvider';
 // import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Header />
       <AboutMe />
       <Links />
+      <Projects />
     {/* </ThemeProvider> */}
   </>,
   document.getElementById('root')
