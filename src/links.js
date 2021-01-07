@@ -47,23 +47,23 @@ const Links = () => {
             <h4 className={classes.title}>links</h4>
             <Grid container spacing={10} className={classes.gridCentered} >
                 <Grid item className={classes.gridCentered}>
-                    <img className={classes.img} src="linkedin.png" alt="linkedinButton" /> <br />
+                    <a className={classes.link} href='https://www.linkedin.com/in/dlee14/'><img className={classes.img} src="linkedin.png" alt="linkedinButton" /></a> <br />
                     <a className={classes.link} href='https://www.linkedin.com/in/dlee14/'>linkedin</a>
                 </Grid>
                 <Grid item className={classes.gridCentered}>
-                    <img className={classes.img} src="github.png" alt="githubButton" /> <br />
+                    <a className={classes.link} href="https://github.com/denlee973"><img className={classes.img} src="github.png" alt="githubButton" /></a> <br />
                     <a className={classes.link} href="https://github.com/denlee973">github</a>
                 </Grid>
                 <Grid item className={classes.gridCentered}>
-                    <img className={classes.img} src="figma.png" alt="figmaButton" /> <br />
+                    <a href='https://www.linkedin.com/in/dlee14/' className={classes.link}><img className={classes.img} src="figma.png" alt="figmaButton" /></a> <br />
                     <a href='https://www.linkedin.com/in/dlee14/' className={classes.link}>figma</a>
                 </Grid>
                 <Grid item className={classes.gridCentered}>
-                    <img className={classes.img} src="instagram.png" alt="instagramButton" /> <br />
+                    <a className={classes.link} href="https://www.instagram.com/_dn.y/"><img className={classes.img} src="instagram.png" alt="instagramButton" /></a> <br />
                     <a className={classes.link} href="https://www.instagram.com/_dn.y/">instagram</a>
                 </Grid>
                 <Grid item className={classes.gridCentered}>
-                    <img className={classes.img} src="resume.png" alt="resumeButton" /> <br />
+                    <a className={classes.link} href="Denny Lee - Resume S21.pdf"><img className={classes.img} src="resume.png" alt="resumeButton" /></a> <br />
                     <a className={classes.link} href="Denny Lee - Resume S21.pdf">resume</a>
                 </Grid>
             </Grid>
